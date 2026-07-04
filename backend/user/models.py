@@ -8,7 +8,7 @@ class User(SQLModel, table=True):
     age: int
     email: str
 
-class UserCreate(UserCreate):
-    id: int | None = Field(default=None, primary_key=True)
-    name: str
-    age: int
+# class UserCreate(UserCreate):
+#     id: int | None = Field(default=None, primary_key=True)
+#     name: str
+#     age: int
